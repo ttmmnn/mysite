@@ -1,0 +1,8 @@
+[Sat Sep 02 00:14:02.021434 2023] [mpm_event:notice] [pid 52099:tid 8632976000] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sat Sep 02 00:14:02.022235 2023] [core:notice] [pid 52099:tid 8632976000] AH00094: Command line: '/Users/tomomb/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/tomomb/Library/Application Support/Local/run/s-t8bVJar/conf/apache/apache2.conf'
+[Sat Sep 02 00:21:07.664526 2023] [mpm_event:notice] [pid 52099:tid 8632976000] AH00491: caught SIGTERM, shutting down
+[Sat Sep 02 10:44:45.637462 2023] [mpm_event:notice] [pid 54627:tid 8629314176] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sat Sep 02 10:44:45.638091 2023] [core:notice] [pid 54627:tid 8629314176] AH00094: Command line: '/Users/tomomb/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/tomomb/Library/Application Support/Local/run/s-t8bVJar/conf/apache/apache2.conf'
+[Sat Sep 02 23:15:34.386164 2023] [mpm_event:notice] [pid 54627:tid 8629314176] AH00491: caught SIGTERM, shutting down
+[Sat Sep 02 23:22:08.809263 2023] [mpm_event:notice] [pid 65446:tid 8606347904] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sat Sep 02 23:22:08.810028 2023] [core:notice] [pid 65446:tid 8606347904] AH00094: Command line: '/Users/tomomb/Library/Application Support/Local/lightning-services/apache-2.4.43+8/bin/darwin/bin/httpd -D FOREGROUND -f /Users/tomomb/Library/Application Support/Local/run/s-t8bVJar/conf/apache/apache2.conf'
