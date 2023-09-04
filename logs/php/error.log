@@ -1,1 +1,8 @@
 [02-Sep-2023 02:58:55 UTC] PHP Parse error:  syntax error, unexpected identifier "the_title" in /Users/tomomb/Local Sites/mysite/app/public/wp-content/themes/mytheme/index.php on line 1
+[04-Sep-2023 08:44:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_pemalink() in /Users/tomomb/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php:80
+Stack trace:
+#0 /Users/tomomb/Local Sites/mysite/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/tomomb/Local Sites/mysite/app/public/wp-blog-header.php(19): require_once('/Users/tomomb/L...')
+#2 /Users/tomomb/Local Sites/mysite/app/public/index.php(17): require('/Users/tomomb/L...')
+#3 {main}
+  thrown in /Users/tomomb/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php on line 80
