@@ -6,3 +6,13 @@ Stack trace:
 #2 /Users/tomomb/Local Sites/mysite/app/public/index.php(17): require('/Users/tomomb/L...')
 #3 {main}
   thrown in /Users/tomomb/Local Sites/mysite/app/public/wp-content/themes/myblog/index.php on line 80
+[06-Sep-2023 12:17:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image_src(), 0 passed in /Users/tomomb/Local Sites/mysite/app/public/wp-content/themes/myblog/single.php on line 18 and at least 1 expected in /Users/tomomb/Local Sites/mysite/app/public/wp-includes/media.php:956
+Stack trace:
+#0 /Users/tomomb/Local Sites/mysite/app/public/wp-content/themes/myblog/single.php(18): wp_get_attachment_image_src()
+#1 /Users/tomomb/Local Sites/mysite/app/public/wp-includes/template-loader.php(106): include('/Users/tomomb/L...')
+#2 /Users/tomomb/Local Sites/mysite/app/public/wp-blog-header.php(19): require_once('/Users/tomomb/L...')
+#3 /Users/tomomb/Local Sites/mysite/app/public/index.php(17): require('/Users/tomomb/L...')
+#4 {main}
+  thrown in /Users/tomomb/Local Sites/mysite/app/public/wp-includes/media.php on line 956
+[07-Sep-2023 07:47:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/tomomb/Local Sites/mysite/app/public/wp-content/themes/myblog/single.php on line 21
+[07-Sep-2023 07:47:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/tomomb/Local Sites/mysite/app/public/wp-content/themes/myblog/single.php on line 21
