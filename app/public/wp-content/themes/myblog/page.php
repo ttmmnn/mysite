@@ -11,10 +11,14 @@
 
   <?php get_template_part('includes/header'); ?>
 
+
   <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
       <!-- Page Header -->
-      <header class="masthead" style="background-image: url('img/about-bg.jpg')">
+      <?php
+      $eyecatch = get_eyecatch_with_default();
+      ?>
+      <header class="masthead" style="background-image: url('<?php echo $eyecatch[0]; ?>')">
         <div class="overlay"></div>
         <div class="container">
           <div class="row">
